@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Entities/Fighter/Fighter.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node2D"]
+
+[node name="Fighter" parent="." instance=ExtResource( 2 )]
+position = Vector2( 330, 0 )
+
+[node name="Fighter2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, 0 )
+
+[node name="Fighter3" parent="." instance=ExtResource( 2 )]
+
+[node name="Fighter4" parent="." instance=ExtResource( 2 )]
+position = Vector2( -165, 0 )
+
+[node name="Fighter5" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, 0 )

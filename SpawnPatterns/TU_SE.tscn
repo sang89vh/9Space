@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Entities/Turret/Turret.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Entities/Sentry/Sentry.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node2D"]
+
+[node name="Turret" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, -150 )
+
+[node name="Turret3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 110, -50 )
+
+[node name="Turret5" parent="." instance=ExtResource( 1 )]
+position = Vector2( -110, 50 )
+
+[node name="Turret7" parent="." instance=ExtResource( 1 )]
+position = Vector2( -330, 150 )
+
+[node name="Sentry" parent="." instance=ExtResource( 2 )]
+position = Vector2( 220, -100 )
+
+[node name="Sentry2" parent="." instance=ExtResource( 2 )]
+
+[node name="Sentry3" parent="." instance=ExtResource( 2 )]
+position = Vector2( -220, 100 )

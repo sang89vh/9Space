@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Entities/Drone/Drone.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node2D"]
+
+[node name="Drone" parent="." instance=ExtResource( 2 )]
+
+[node name="Drone2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, -50 )
+
+[node name="Drone3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 330, -100 )
+
+[node name="Drone4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, 50 )
+
+[node name="Drone5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 330, 100 )
+
+[node name="Drone6" parent="." instance=ExtResource( 2 )]
+position = Vector2( -165, -50 )
+
+[node name="Drone7" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, -100 )
+
+[node name="Drone8" parent="." instance=ExtResource( 2 )]
+position = Vector2( -165, 50 )
+
+[node name="Drone9" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, 100 )

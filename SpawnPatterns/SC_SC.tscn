@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Entities/Scout/Scout.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node2D"]
+
+[node name="Scout" parent="." instance=ExtResource( 2 )]
+
+[node name="Scout2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, 50 )
+
+[node name="Scout3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 330, 100 )
+
+[node name="Scout4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 165, -50 )
+
+[node name="Scout5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 330, -100 )
+
+[node name="Scout6" parent="." instance=ExtResource( 2 )]
+position = Vector2( -165, -50 )
+
+[node name="Scout7" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, -100 )
+
+[node name="Scout8" parent="." instance=ExtResource( 2 )]
+position = Vector2( -165, 50 )
+
+[node name="Scout9" parent="." instance=ExtResource( 2 )]
+position = Vector2( -330, 100 )

@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="UI" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 720.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_right = 240.0
+margin_bottom = 720.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Control" type="Label" parent="."]
+margin_top = 353.0
+margin_right = 240.0
+margin_bottom = 367.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "4b_SS"

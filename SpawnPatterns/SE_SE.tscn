@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Entities/Sentry/Sentry.tscn" type="PackedScene" id=2]
+
+[node name="Node" type="Node2D"]
+
+[node name="Sentry" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, 150 )
+
+[node name="Sentry2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, 100 )
+
+[node name="Sentry3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, 50 )
+
+[node name="Sentry4" parent="." instance=ExtResource( 2 )]
+
+[node name="Sentry5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, -50 )
+
+[node name="Sentry6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, -100 )
+
+[node name="Sentry7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 0, -150 )
